@@ -160,7 +160,7 @@ const OnboardingForm = () => {
                   <button
                     type="button"
                     onClick={generateToken}
-                    className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600"
+                    className="px-2 py-1 text-xs bg-black text-white rounded hover:bg-gray-700"
                   >
                     Reintentar
                   </button>
@@ -173,7 +173,7 @@ const OnboardingForm = () => {
               <Button
                 type="submit"
                 form="onboarding-form"
-                className="my-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 disabled:bg-gray-300 disabled:cursor-not-allowed"
+                className="my-2 px-4 py-2 bg-black text-white rounded hover:bg-gray-700 disabled:bg-gray-300 disabled:cursor-not-allowed"
               >
                 {form.formState.isSubmitting ? "Enviando..." : "Enviar"}
               </Button>

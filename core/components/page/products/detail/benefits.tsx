@@ -15,7 +15,7 @@ const ProductBenefits = ({ benefits }: Readonly<ProductBenefitsProps>) => {
             className="border border-gray-200 rounded-3xl shadow-sm bg-white p-4"
           >
             <div className="flex items-center gap-4">
-              <div className="shrink-0 rounded-full bg-blue-500 p-2">
+              <div className="shrink-0 rounded-full bg-black p-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

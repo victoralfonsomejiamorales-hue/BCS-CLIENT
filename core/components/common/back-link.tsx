@@ -9,7 +9,7 @@ const BackLink = ({ href, label = "Volver" }: Readonly<BackLinkProps>) => {
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-blue-500 transition-colors"
+      className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-black transition-colors"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

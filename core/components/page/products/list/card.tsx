@@ -31,7 +31,7 @@ const ProductPreviewCard = ({ product }: Readonly<ProductPreviewCardProps>) => {
       <div className="mt-auto">
         <Link
           href={`/products/${product._id}`}
-          className="block w-full text-center px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 rounded-3xl"
+          className="block w-full text-center px-4 py-2 bg-black text-white hover:bg-gray-700 rounded-3xl"
         >
           Conoce más
         </Link>

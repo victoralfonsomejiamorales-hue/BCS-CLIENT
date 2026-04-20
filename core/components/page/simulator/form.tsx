@@ -147,7 +147,7 @@ const SimulatorForm = () => {
               <Button
                 type="submit"
                 form="simulator-form"
-                className="my-2 px-4 py-2 bg-blue-500 text-white rounded-3xl hover:bg-blue-600 disabled:bg-gray-300 disabled:cursor-not-allowed"
+                className="my-2 px-4 py-2 bg-black text-white rounded-3xl hover:bg-gray-800 disabled:bg-gray-300 disabled:cursor-not-allowed"
                 disabled={!form.formState.isValid || isLoading}
               >
                 {isLoading ? "Simulando..." : "Simular"}

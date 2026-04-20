@@ -31,7 +31,7 @@ const SimulatorResult = () => {
           </div>
           <div className="space-y-1">
             <span className="text-sm text-gray-500">Saldo final:</span>
-            <p className="text-lg font-bold text-blue-500">
+            <p className="text-lg font-bold text-green-600">
               {formatCurrency(result.finalBalance)}
             </p>
           </div>
@@ -42,7 +42,7 @@ const SimulatorResult = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="space-y-1">
             <span className="text-sm text-gray-500">Intereses ganados:</span>
-            <p className="text-lg font-bold text-blue-500">
+            <p className="text-lg font-bold text-green-600">
               {formatCurrency(result.interestEarned)}
             </p>
           </div>

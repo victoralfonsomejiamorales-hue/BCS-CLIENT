@@ -16,7 +16,7 @@ const ProductRequirements = ({
             key={`requirement-${requirement}-${index}`}
             className="flex items-center gap-4 p-2"
           >
-            <div className="shrink-0 rounded-full bg-blue-500 p-2">
+            <div className="shrink-0 rounded-full bg-black p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
