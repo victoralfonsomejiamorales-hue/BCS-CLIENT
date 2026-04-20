@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "./core/components/ui/button";
+import { Button } from "../core/components/ui/button";
 
 export default function Home() {
   return (
@@ -17,11 +17,11 @@ export default function Home() {
             depósito
           </p>
           <div className="flex gap-2 justify-center mt-4">
-            <Button type="button">
-              <Link href="/productos">Productos</Link>
-            </Button>
-            <Button type="button">
-              <Link href="/simular">Simular</Link>
+            <Button
+              type="button"
+              className="bg-blue-500 text-white px-4 py-2 rounded-3xl hover:bg-blue-600"
+            >
+              <Link href="/onboarding">Comenzar ahora</Link>
             </Button>
           </div>
         </div>
